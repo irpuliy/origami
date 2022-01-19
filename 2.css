@@ -1,0 +1,109 @@
+.menu{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(250, 198, 211);
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(255, 251, 252);
+
+}
+
+ .Title{
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+  }
+
+
+.grid img{
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+
+.origami{
+    border-radius: 20px;
+    background-color: rgb(255, 235, 205);
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    margin: 25px;
+    font-family: fantasy;
+    display: table-cell;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+
+
+.aboutus{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+body{
+    background-color: rgb(252, 238, 248);
+    margin: 0px;
+}
+
+
+a:link{
+    color: white;
+}
+
+
+a:visited{
+    color: white;
+}
+
+
+.origami:hover{
+
+    transform: scale(1.2);
+}
+
+
+.bodyimg{
+    position: relative;
+}
+
+
+.bodyimg p{
+
+    color: white;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%,-50%);
+}
+
+
+.bodyimg h3{
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
